@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    width: 70;
+    height: 70;
+    font-size: 25;
+    margin: 5;
+    cursor: pointer;
+    background: black;
+    border: none;
+    color: white;
+}
+.textview{
+    width: 487;
+    height: 80;
+    margin: 5;
+    font-size: 25;
+    padding: 5; 
+    border: none;
+    color: black;
+    right: 5;
+}
+.main{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50) translateY(-50);
+    margin-left: -300px;
+    margin-top: -600px;
+}
+.bg{
+    background: linear-gradient(to right,  rgb(255, 0, 149), cyan);
+    height: 100%;
+}
+.button:hover{
+    background:rgb(255, 0, 149);
+}
